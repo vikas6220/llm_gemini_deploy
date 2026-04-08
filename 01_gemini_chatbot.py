@@ -3,6 +3,7 @@ import os
 import google.generativeai as genai
 from dotenv import load_dotenv
 
+## here you need to provide secret keys for streamlit deployment
 st.secrets["GEMINI_API_KEY"]
 
 # ---------------- Setup ---------------- #
